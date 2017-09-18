@@ -1,3 +1,9 @@
+### 1.0.1
+
+* Publish to npm - **[@jessepinho](https://github.com/jessepinho)** [#2](https://github.com/groupon/tiquette/pull/2)
+  - [`6df496c`](https://github.com/groupon/tiquette/commit/6df496c6e544daa4f13b485739f55c1856aad111) **chore:** set up publishConfig
+
+
 ### 1.0.0
 
 * Set up Travis integration - **[@jessepinho](https://github.com/jessepinho)** [#1](https://github.com/groupon/tiquette/pull/1)
