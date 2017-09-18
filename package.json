@@ -1,0 +1,42 @@
+{
+  "name": "tiquette",
+  "version": "0.0.0",
+  "description": "Have some etiquette. Format your commit messages with a ticket or issue number.",
+  "author": "Jesse Pinho <jesse@jessepinho.com>",
+  "license": "BSD-3-Clause",
+  "bin": {
+    "tiquette": "./index.js"
+  },
+  "scripts": {
+    "nlm": "nlm",
+    "posttest": "npm run prettify && npm run nlm verify",
+    "prepublishOnly": "tsc",
+    "prettify": "prettier --write --single-quote --trailing-comma=all 'src/**/*.ts'",
+    "test": "JASMINE_CONFIG_PATH=jasmine.json jasmine"
+  },
+  "files": [
+    "dist",
+    "index.js"
+  ],
+  "nlm": {
+    "channels": {
+      "master": "latest"
+    }
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.54",
+    "@types/node": "^8.0.25",
+    "jasmine": "^2.8.0",
+    "nlm": "^3.3.0",
+    "prettier": "^1.6.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "husky": "^0.14.3",
+    "node-fetch": "^1.7.2",
+    "prompt": "^1.0.0",
+    "rc": "^1.2.1"
+  }
+}
