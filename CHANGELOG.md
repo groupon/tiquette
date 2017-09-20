@@ -1,3 +1,8 @@
+### 1.0.3
+
+* [`9fb2c98`](https://github.com/groupon/tiquette/commit/9fb2c9894d059f1d5919a835a06647a08c5c6eff) **docs:** add build status to README
+
+
 ### 1.0.2
 
 * [`c91ba1d`](https://github.com/groupon/tiquette/commit/c91ba1dc2c9c1801fca37458c96a0a9f58e33d67) **fix:** use prepare hook to build dist assets

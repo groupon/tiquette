@@ -1,6 +1,6 @@
 {
   "name": "tiquette",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Have some etiquette. Format your commit messages with a ticket or issue number.",
   "author": "Jesse Pinho <jesse@jessepinho.com>",
   "license": "BSD-3-Clause",
