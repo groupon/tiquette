@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/groupon/tiquette.svg?branch=master)](https://travis-ci.org/groupon/tiquette)
+
 # Tiquette
 
 Tiquette is a tool for automatically formatting your commit messages with a ticket or issue number. If your development process requires a reference to tickets in commit messages, then this is the tool for you!
