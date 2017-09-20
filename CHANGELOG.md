@@ -1,3 +1,8 @@
+### 1.0.2
+
+* [`c91ba1d`](https://github.com/groupon/tiquette/commit/c91ba1dc2c9c1801fca37458c96a0a9f58e33d67) **fix:** use prepare hook to build dist assets
+
+
 ### 1.0.1
 
 * Publish to npm - **[@jessepinho](https://github.com/jessepinho)** [#2](https://github.com/groupon/tiquette/pull/2)
