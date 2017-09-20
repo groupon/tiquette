@@ -10,7 +10,7 @@
   "scripts": {
     "nlm": "nlm",
     "posttest": "npm run prettify && npm run nlm verify",
-    "prepublishOnly": "tsc",
+    "prepare": "tsc",
     "prettify": "prettier --write --single-quote --trailing-comma=all 'src/**/*.ts'",
     "test": "JASMINE_CONFIG_PATH=jasmine.json jasmine"
   },
